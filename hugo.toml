@@ -1,0 +1,38 @@
+baseURL = "https://Fra-Tsuna.github.io/"
+languageCode = "en-us"
+title = "Francesco | Research"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+
+  # PaperMod: show posts on home
+  mainSections = ["log"]
+
+[menu]
+  [[menu.main]]
+    name = "Research Log"
+    url = "/log/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
