@@ -5,6 +5,7 @@ draft: false
 venue: "Workshop on Robot Representations for Scene Understanding, Reasoning and Planning @ Robotics: Science and Systems (RSS), 2023"
 hideProject: true
 hideCode: true
+paperUrl: "https://arxiv.org/pdf/2309.12692"
 authors: "Francesco Argenziano; Vincenzo Suriani; Daniele Nardi"
 abstract: "Abstract available in the publication record."
 ---

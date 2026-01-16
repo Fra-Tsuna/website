@@ -122,8 +122,32 @@
                         {{ $authors = replaceRE `(Barbin,\s*Aymeric\*?)` `<a href="https://scholar.google.com/citations?user=oB7yWcIAAAAJ&hl=en">$1</a>` $authors }}
                         {{ $authors = replaceRE `(Roberto\s+Capobianco\*?)` `<a href="https://robertocapobianco.com/">$1</a>` $authors }}
                         {{ $authors = replaceRE `(Capobianco,\s*Roberto\*?)` `<a href="https://robertocapobianco.com/">$1</a>` $authors }}
-                        {{ $authors = replaceRE `(Michele\\s+Brienza\\*?)` `<a href="https://www.linkedin.com/in/michele-brienza-ba0292253/?originalSubdomain=it">$1</a>` $authors }}
-                        {{ $authors = replaceRE `(Brienza,\\s*Michele\\*?)` `<a href="https://www.linkedin.com/in/michele-brienza-ba0292253/?originalSubdomain=it">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Liam\s+Paull\*?)` `<a href="https://liampaull.ca/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Paull,\s*Liam\*?)` `<a href="https://liampaull.ca/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Sacha\s+Morin\*?)` `<a href="https://sachamorin.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Morin,\s*Sacha\*?)` `<a href="https://sachamorin.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Miguel\s+Saavedra-Ruiz\*?)` `<a href="https://mikes96.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Saavedra-Ruiz,\s*Miguel\*?)` `<a href="https://mikes96.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Charlie\s+Gauthier\*?)` `<a href="https://velythyl.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Gauthier,\s*Charlie\*?)` `<a href="https://velythyl.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Francesco\s+Leotta\*?)` `<a href="https://www.diag.uniroma1.it/leotta/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Leotta,\s*Francesco\*?)` `<a href="https://www.diag.uniroma1.it/leotta/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Kumaraditya\s+Gupta\*?)` `<a href="https://www.kumaradityag.com/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Gupta,\s*Kumaraditya\*?)` `<a href="https://www.kumaradityag.com/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Kirsty\s+Ellis\*?)` `<a href="https://www.linkedin.com/in/kirsty-ellis-943b8245/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Ellis,\s*Kirsty\*?)` `<a href="https://www.linkedin.com/in/kirsty-ellis-943b8245/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Mahtab\s+Sandhu\*?)` `<a href="https://scholar.google.com/citations?hl=en&user=Gdv8B50AAAAJ&view_op=list_works&sortby=pubdate">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Sandhu,\s*Mahtab\*?)` `<a href="https://scholar.google.com/citations?hl=en&user=Gdv8B50AAAAJ&view_op=list_works&sortby=pubdate">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Emanuele\s+Musumeci\*?)` `<a href="https://sites.google.com/view/emanuelemusumeci/home">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Musumeci,\s*Emanuele\*?)` `<a href="https://sites.google.com/view/emanuelemusumeci/home">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Abdel\s+Hakim\s+Drid\*?)` `<a href="https://www.linkedin.com/in/hakim-drid/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Drid,\s*Abdel\s+Hakim\*?)` `<a href="https://www.linkedin.com/in/hakim-drid/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Sara\s+Micol\s+Ferraina\*?)` `<a href="https://www.linkedin.com/in/sara-micol-ferraina-85313a1a9/?originalSubdomain=it">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Ferraina,\s*Sara\s+Micol\*?)` `<a href="https://www.linkedin.com/in/sara-micol-ferraina-85313a1a9/?originalSubdomain=it">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Domenico\s+D\s+Bloisi\*?)` `<a href="https://dbloisi.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Bloisi,\s*Domenico\s+D\*?)` `<a href="https://dbloisi.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Michele\s+Brienza\*?)` `<a href="https://michelebri.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Brienza,\s*Michele\*?)` `<a href="https://michelebri.github.io/">$1</a>` $authors }}
                         <p class="pub-authors">{{ $authors | safeHTML }}</p>
                         {{ end }}
                         {{ $project := $page.Params.projectUrl }}
