@@ -1,0 +1,16 @@
+.home-info {
+  justify-content: flex-start;
+  min-height: unset;
+}
+
+.home-info .entry-header,
+.home-info .entry-content {
+  text-align: left;
+}
+
+.home-info .entry-content img {
+  width: 160px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}

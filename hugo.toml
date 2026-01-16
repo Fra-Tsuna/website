@@ -1,7 +1,8 @@
 baseURL = "https://Fra-Tsuna.github.io/"
 languageCode = "en-us"
-title = "Francesco | Research"
+title = "Francesco Argenziano"
 theme = "PaperMod"
+staticDir = ["static", "imgs"]
 
 [pagination]
   pagerSize = 10
@@ -12,9 +13,26 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
+  homeTitle = "Francesco Argenziano"
 
   # PaperMod: show posts on home
   mainSections = ["log"]
+
+[params.homeInfoParams]
+  Content = "![My portrait](portrait.png \"My portrait\")"
+
+[[params.homeBadges]]
+  label = "Google Scholar"
+  url = "https://scholar.google.com/citations?user=TCqScyQAAAAJ&hl=it"
+  icon = "svg/googles-cholar-svgrepo-com.svg"
+[[params.homeBadges]]
+  label = "LinkedIn"
+  url = "https://www.linkedin.com/in/fra-arg/"
+  icon = "svg/linkedin-161-svgrepo-com.svg"
+[[params.homeBadges]]
+  label = "GitHub"
+  url = "https://github.com/Fra-Tsuna"
+  icon = "svg/github-142-svgrepo-com.svg"
 
 [menu]
   [[menu.main]]

@@ -1,0 +1,207 @@
+{{ define "main" }}
+{{ $about := site.GetPage "about" }}
+{{ $news := site.Data.news }}
+{{ $pubs := where site.RegularPages "Section" "publications" }}
+
+<div class="home-vertical">
+    <section class="home-hero">
+        <div class="hero-card">
+            <div class="hero-portrait">
+                {{ with resources.Get "portrait.png" }}
+                <img src="{{ .RelPermalink }}" alt="Portrait of {{ site.Title }}" loading="lazy">
+                {{ end }}
+            </div>
+            <div class="hero-copy">
+                <p class="eyebrow">Research Profile</p>
+                <h1>{{ site.Params.homeTitle | default site.Title }}</h1>
+                {{ with $about }}
+                {{ $summary := .Params.summary | default "" }}
+                {{ if not $summary }}
+                {{ $summary = .Plain | truncate 280 }}
+                {{ end }}
+                <p class="lede">{{ $summary }}</p>
+                <a class="text-link" href="{{ .RelPermalink }}">Read the full bio</a>
+                {{ with site.Params.homeBadges }}
+                <div class="hero-badges">
+                    {{ range . }}
+                    <a class="badge-link" href="{{ .url }}" aria-label="{{ .label }}">
+                        {{ with resources.Get .icon }}
+                        <img src="{{ .RelPermalink }}" alt="" aria-hidden="true" loading="lazy">
+                        {{ end }}
+                    </a>
+                    {{ end }}
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <section class="home-news" id="news">
+        <div class="section-header">
+            <h2>News</h2>
+        </div>
+        <ul class="news-list">
+            {{ range sort $news "date" "desc" }}
+            <li>
+                <div class="news-row">
+                    {{- with .date -}}
+                    {{- $t := time . -}}
+                    <time datetime="{{ . }}">{{ $t.Format "Jan 2006" }}</time>
+                    {{- end -}}
+                    {{- if .link -}}
+                    <a href="{{ .link }}">{{ .text }}</a>
+                    {{- else -}}
+                    <span>{{ .text }}</span>
+                    {{- end -}}
+                </div>
+            </li>
+            {{ else }}
+            <li class="news-empty">No news items yet.</li>
+            {{ end }}
+        </ul>
+    </section>
+
+    <section class="home-publications" id="publications">
+        <div class="section-header">
+            <h2>Publications</h2>
+        </div>
+        <div class="pub-list">
+            {{ range $pubs }}
+            {{ $page := . }}
+            {{ $venue := $page.Params.venue | default "" }}
+            {{ $image := $page.Params.image | default "publication-placeholder.svg" }}
+            {{ if hasPrefix $image "imgs/" }}
+            {{ $image = replaceRE "^imgs/" "" $image }}
+            {{ end }}
+            {{ if $image }}
+            {{ with $page.Resources.GetMatch $image }}
+            {{ $image = .RelPermalink }}
+            {{ else }}
+            {{ with resources.Get $image }}
+            {{ $image = .RelPermalink }}
+            {{ else }}
+            {{ $image = relURL $image }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            <article class="pub-card">
+                <div class="pub-link">
+                    {{ if $image }}
+                    <a class="pub-thumb" href="{{ $page.RelPermalink }}">
+                        <img src="{{ $image }}" alt="{{ $page.Title }} cover" loading="lazy">
+                    </a>
+                    {{ end }}
+                    <div class="pub-body">
+                        <div class="pub-title-row">
+                            <a class="pub-title-link" href="{{ $page.RelPermalink }}">
+                                <h3>{{ $page.Title }}</h3>
+                            </a>
+                            {{ with $page.Params.award }}
+                            <span class="pub-award">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ $forceVenue := $page.Params.showVenue | default false }}
+                        {{ if and $venue (or $forceVenue (not (in (lower $venue) "arxiv"))) }}
+                        {{ with $page.Params.venue }}
+                        {{ $venueText := . }}
+                        {{ $venueText = replaceRE `\(([^)]+)\)` `(<strong>$1</strong>)` $venueText }}
+                        <p class="pub-venue">{{ $venueText | safeHTML }}</p>
+                        {{ end }}
+                        {{ end }}
+                        {{ with $page.Params.authors }}
+                        {{ $authors := . }}
+                        {{ $authors = replaceRE `(Argenziano,\s*Francesco)` `<strong>$1</strong>` $authors }}
+                        {{ $authors = replaceRE `(Francesco\s+Argenziano)` `<strong>$1</strong>` $authors }}
+                        {{ $authors = replaceRE `(Vincenzo\s+Suriani\*?)` `<a href="https://www.linkedin.com/in/vincenzo-suriani-549429127/?originalSubdomain=it">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Daniele\s+Nardi\*?)` `<a href="https://www.diag.uniroma1.it/~nardi/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Nardi,\s*Daniele\*?)` `<a href="https://www.diag.uniroma1.it/~nardi/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Elena\s+Umili\*?)` `<a href="https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Umili,\s*Elena\*?)` `<a href="https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Aymeric\s+Barbin\*?)` `<a href="https://scholar.google.com/citations?user=oB7yWcIAAAAJ&hl=en">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Barbin,\s*Aymeric\*?)` `<a href="https://scholar.google.com/citations?user=oB7yWcIAAAAJ&hl=en">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Roberto\s+Capobianco\*?)` `<a href="https://robertocapobianco.com/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Capobianco,\s*Roberto\*?)` `<a href="https://robertocapobianco.com/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Michele\\s+Brienza\\*?)` `<a href="https://www.linkedin.com/in/michele-brienza-ba0292253/?originalSubdomain=it">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Brienza,\\s*Michele\\*?)` `<a href="https://www.linkedin.com/in/michele-brienza-ba0292253/?originalSubdomain=it">$1</a>` $authors }}
+                        <p class="pub-authors">{{ $authors | safeHTML }}</p>
+                        {{ end }}
+                        {{ $project := $page.Params.projectUrl }}
+                        {{ $paper := $page.Params.paperUrl }}
+                        {{ $code := $page.Params.codeUrl }}
+                        {{ $hideProjectCode := $page.Params.hideProjectCode | default false }}
+                        {{ $hideProject := $page.Params.hideProject | default false }}
+                        {{ $hideCode := $page.Params.hideCode | default false }}
+                        <div class="pub-links">
+                            {{ if and (not $hideProjectCode) (not $hideProject) }}
+                            {{ if $project }}
+                            <a class="pub-link-pill" href="{{ $project }}">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <path d="M3 12h18"></path>
+                                    <path d="M12 3a14 14 0 0 1 0 18"></path>
+                                    <path d="M12 3a14 14 0 0 0 0 18"></path>
+                                </svg>
+                                <span>Project</span>
+                            </a>
+                            {{ else }}
+                            <span class="pub-link-pill is-muted">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <path d="M3 12h18"></path>
+                                    <path d="M12 3a14 14 0 0 1 0 18"></path>
+                                    <path d="M12 3a14 14 0 0 0 0 18"></path>
+                                </svg>
+                                <span>Project</span>
+                            </span>
+                            {{ end }}
+                            {{ end }}
+                            {{ if $paper }}
+                            <a class="pub-link-pill" href="{{ $paper }}">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <path d="M14 2v6h6"></path>
+                                </svg>
+                                <span>Paper</span>
+                            </a>
+                            {{ else }}
+                            <span class="pub-link-pill is-muted">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <path d="M14 2v6h6"></path>
+                                </svg>
+                                <span>Paper</span>
+                            </span>
+                            {{ end }}
+                            {{ if not $hideProjectCode }}
+                            {{ if and $code (not $hideCode) }}
+                            <a class="pub-link-pill" href="{{ $code }}">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M8 9l-3 3 3 3"></path>
+                                    <path d="M16 9l3 3-3 3"></path>
+                                    <path d="M10 19l4-14"></path>
+                                </svg>
+                                <span>Code</span>
+                            </a>
+                            {{ else if not $hideCode }}
+                            <span class="pub-link-pill is-muted">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M8 9l-3 3 3 3"></path>
+                                    <path d="M16 9l3 3-3 3"></path>
+                                    <path d="M10 19l4-14"></path>
+                                </svg>
+                                <span>Code</span>
+                            </span>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </article>
+            {{ else }}
+            <p class="pub-empty">No publications yet. Add entries under `content/publications/`.</p>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}
