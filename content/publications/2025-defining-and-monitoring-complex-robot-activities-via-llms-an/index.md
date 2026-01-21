@@ -4,6 +4,9 @@ date: 2025-01-01
 draft: false
 venue: "IEEE International Conference on Tools with Artificial Intelligence (ICTAI), 2025"
 award: "Oral Presentation"
+projectUrl: "https://fra-tsuna.github.io/llm-to-symbolic-planner/"
+paperUrl: "https://arxiv.org/pdf/2509.16006"
+codeUrl: "https://github.com/Fra-Tsuna/llm-to-symbolic-planner"
 authors: "Francesco Argenziano; Elena Umili; Francesco Leotta; Daniele Nardi"
 pages: "1037-1044"
 publisher: "IEEE Computer Society"

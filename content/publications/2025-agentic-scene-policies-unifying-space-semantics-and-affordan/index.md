@@ -4,6 +4,8 @@ date: 2025-01-01
 draft: false
 venue: "arXiv preprint arXiv:2509.19571"
 showVenue: true
+projectUrl: "https://montrealrobotics.ca/agentic-scene-policies.github.io/"
+paperUrl: "https://arxiv.org/pdf/2509.19571"
 authors: "Sacha Morin; Kumaraditya Gupta; Mahtab Sandhu; Charlie Gauthier; Francesco Argenziano; Kirsty Ellis; Liam Paull"
 abstract: "Abstract available in the publication record."
 ---

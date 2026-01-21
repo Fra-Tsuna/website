@@ -2,6 +2,7 @@
 title: "Enhancing Graph Representation of the Environment through Local and Cloud Computation"
 date: 2023-01-01
 draft: false
+image: "imgs/rss.png"
 venue: "Workshop on Robot Representations for Scene Understanding, Reasoning and Planning @ Robotics: Science and Systems (RSS), 2023"
 hideProject: true
 hideCode: true

@@ -5,7 +5,7 @@ draft: false
 venue: "International Workshop on Neural-Symbolic Learning and Reasoning (NeSy), 2023"
 paperUrl: "https://ceur-ws.org/Vol-3432/paper23.pdf"
 codeUrl: "https://github.com/whitemech/VisualRewardMachine"
-image: "imgs/nesy.png"
+image: "imgs/nesy.png?v=20260116"
 hideProject: true
 authors: "Elena Umili; Francesco Argenziano; Aymeric Barbin; Roberto Capobianco"
 volume: "3432"

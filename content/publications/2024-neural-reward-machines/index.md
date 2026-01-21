@@ -2,6 +2,7 @@
 title: "Neural reward machines"
 date: 2024-01-01
 draft: false
+image: "imgs/ecai_nrm.png"
 venue: "European Conference on Artificial Intelligence (ECAI), 2024"
 award: "Oral Presentation"
 paperUrl: "https://ebooks.iospress.nl/volumearticle/69942"
