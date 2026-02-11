@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  --site-font: "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  font-family: var(--site-font);
+}
+
+body,
+button,
+input,
+select,
+textarea,
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--site-font);
+}

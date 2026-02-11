@@ -17,13 +17,13 @@
   max-width: var(--nav-width);
   margin: 0 auto;
   animation: home-rise 0.7s ease both;
-  font-family: "Source Serif 4", "Georgia", serif;
+  font-family: var(--site-font);
 }
 
 .home-vertical h1,
 .home-vertical h2,
 .home-vertical h3 {
-  font-family: "Fraunces", "Georgia", serif;
+  font-family: var(--site-font);
   letter-spacing: -0.02em;
   font-weight: 400;
 }
@@ -31,7 +31,7 @@
 .home-vertical .eyebrow,
 .home-vertical .news-list,
 .home-vertical .pub-cta {
-  font-family: "Space Grotesk", "Helvetica", sans-serif;
+  font-family: var(--site-font);
   text-transform: uppercase;
   letter-spacing: 0.18em;
 }
@@ -279,7 +279,7 @@ button#theme-toggle {
   width: 100%;
   height: 170px;
   border-radius: 16px;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   display: block;
 }
@@ -347,7 +347,7 @@ button#theme-toggle {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  font-family: "Space Grotesk", "Helvetica", sans-serif;
+  font-family: var(--site-font);
   font-size: 0.72rem;
   letter-spacing: 0.02em;
 }
