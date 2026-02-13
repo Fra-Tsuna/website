@@ -1,133 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Francesco Argenziano</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Francesco Argenziano</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>LOST-3DSG: Lightweight Open-Vocabulary 3D Scene Graphs with Semantic Tracking in Dynamic Environments</title>
-      <link>http://localhost:1313/publications/2026-lost-3dsg-lightweight-open-vocabulary-3d-scene-graphs-with-s/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2026-lost-3dsg-lightweight-open-vocabulary-3d-scene-graphs-with-s/</guid>
-      <description>&lt;p&gt;Authors: &lt;a href=&#34;https://www.linkedin.com/in/sara-micol-ferraina-85313a1a9/?originalSubdomain=it&#34;&gt;Ferraina, Sara Micol&lt;/a&gt;; &lt;a href=&#34;https://michelebri.github.io/&#34;&gt;Brienza, Michele&lt;/a&gt;; Argenziano, Francesco; &lt;a href=&#34;https://sites.google.com/view/emanuelemusumeci/home&#34;&gt;Musumeci, Emanuele&lt;/a&gt;; Suriani, Vincenzo; &lt;a href=&#34;https://dbloisi.github.io/&#34;&gt;Bloisi, Domenico D&lt;/a&gt;; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Francesco Argenziano</title><link>https://fra-tsuna.github.io/website/</link><description>Recent content on Francesco Argenziano</description><generator>Hugo -- 0.152.2</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fra-tsuna.github.io/website/index.xml" rel="self" type="application/rss+xml"/><item><title>LOST-3DSG: Lightweight Open-Vocabulary 3D Scene Graphs with Semantic Tracking in Dynamic Environments</title><link>https://fra-tsuna.github.io/website/publications/2026-lost-3dsg-lightweight-open-vocabulary-3d-scene-graphs-with-s/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2026-lost-3dsg-lightweight-open-vocabulary-3d-scene-graphs-with-s/</guid><description>&lt;p&gt;Authors: &lt;a href="https://www.linkedin.com/in/sara-micol-ferraina-85313a1a9/?originalSubdomain=it"&gt;Ferraina, Sara Micol&lt;/a&gt;; &lt;a href="https://michelebri.github.io/"&gt;Brienza, Michele&lt;/a&gt;; Argenziano, Francesco; &lt;a href="https://sites.google.com/view/emanuelemusumeci/home"&gt;Musumeci, Emanuele&lt;/a&gt;; Suriani, Vincenzo; &lt;a href="https://dbloisi.github.io/"&gt;Bloisi, Domenico D&lt;/a&gt;; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;
 Publication: Workshop on Scene Graph for Structured Intelligence @ IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Agentic Scene Policies: Unifying Space, Semantics, and Affordances for Robot Action</title>
-      <link>http://localhost:1313/publications/2025-agentic-scene-policies-unifying-space-semantics-and-affordan/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2025-agentic-scene-policies-unifying-space-semantics-and-affordan/</guid>
-      <description>&lt;p&gt;Authors: &lt;a href=&#34;https://sachamorin.github.io/&#34;&gt;Morin, Sacha&lt;/a&gt;; &lt;a href=&#34;https://www.kumaradityag.com/&#34;&gt;Gupta, Kumaraditya&lt;/a&gt;; &lt;a href=&#34;https://scholar.google.com/citations?hl=en&amp;amp;user=Gdv8B50AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&#34;&gt;Sandhu, Mahtab&lt;/a&gt;; &lt;a href=&#34;https://velythyl.github.io/&#34;&gt;Gauthier, Charlie&lt;/a&gt;; Argenziano, Francesco; &lt;a href=&#34;https://www.linkedin.com/in/kirsty-ellis-943b8245/&#34;&gt;Ellis, Kirsty&lt;/a&gt;; &lt;a href=&#34;https://liampaull.ca/&#34;&gt;Paull, Liam&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Agentic Scene Policies: Unifying Space, Semantics, and Affordances for Robot Action</title><link>https://fra-tsuna.github.io/website/publications/2025-agentic-scene-policies-unifying-space-semantics-and-affordan/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2025-agentic-scene-policies-unifying-space-semantics-and-affordan/</guid><description>&lt;p&gt;Authors: &lt;a href="https://sachamorin.github.io/"&gt;Morin, Sacha&lt;/a&gt;; &lt;a href="https://www.kumaradityag.com/"&gt;Gupta, Kumaraditya&lt;/a&gt;; &lt;a href="https://scholar.google.com/citations?hl=en&amp;amp;user=Gdv8B50AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate"&gt;Sandhu, Mahtab&lt;/a&gt;; &lt;a href="https://velythyl.github.io/"&gt;Gauthier, Charlie&lt;/a&gt;; Argenziano, Francesco; &lt;a href="https://www.linkedin.com/in/kirsty-ellis-943b8245/"&gt;Ellis, Kirsty&lt;/a&gt;; &lt;a href="https://liampaull.ca/"&gt;Paull, Liam&lt;/a&gt;
 Publication: arXiv preprint arXiv:2509.19571&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning</title>
-      <link>http://localhost:1313/publications/2025-context-matters-relaxing-goals-with-llms-for-feasible-3d-sce/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2025-context-matters-relaxing-goals-with-llms-for-feasible-3d-sce/</guid>
-      <description>&lt;p&gt;Authors: Argenziano, Francesco*; &lt;a href=&#34;https://sites.google.com/view/emanuelemusumeci/home&#34;&gt;Musumeci, Emanuele&lt;/a&gt;&lt;em&gt;; &lt;a href=&#34;https://michelebri.github.io/&#34;&gt;Brienza, Michele&lt;/a&gt;&lt;/em&gt;; &lt;a href=&#34;https://www.linkedin.com/in/hakim-drid/&#34;&gt;Drid, Abdel Hakim&lt;/a&gt;; Suriani, Vincenzo; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;; &lt;a href=&#34;https://dbloisi.github.io/&#34;&gt;Bloisi, Domenico D&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning</title><link>https://fra-tsuna.github.io/website/publications/2025-context-matters-relaxing-goals-with-llms-for-feasible-3d-sce/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2025-context-matters-relaxing-goals-with-llms-for-feasible-3d-sce/</guid><description>&lt;p&gt;Authors: Argenziano, Francesco*; &lt;a href="https://sites.google.com/view/emanuelemusumeci/home"&gt;Musumeci, Emanuele&lt;/a&gt;&lt;em&gt;; &lt;a href="https://michelebri.github.io/"&gt;Brienza, Michele&lt;/a&gt;&lt;/em&gt;; &lt;a href="https://www.linkedin.com/in/hakim-drid/"&gt;Drid, Abdel Hakim&lt;/a&gt;; Suriani, Vincenzo; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;; &lt;a href="https://dbloisi.github.io/"&gt;Bloisi, Domenico D&lt;/a&gt;
 Publication: IEEE International Conference on Robotics &amp;amp; Automation (ICRA), 2025&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Defining and Monitoring Complex Robot Activities via LLMs and Symbolic Reasoning</title>
-      <link>http://localhost:1313/publications/2025-defining-and-monitoring-complex-robot-activities-via-llms-an/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2025-defining-and-monitoring-complex-robot-activities-via-llms-an/</guid>
-      <description>&lt;p&gt;Authors: Argenziano, Francesco; &lt;a href=&#34;https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it&#34;&gt;Umili, Elena&lt;/a&gt;; &lt;a href=&#34;https://www.diag.uniroma1.it/leotta/&#34;&gt;Leotta, Francesco&lt;/a&gt;; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Defining and Monitoring Complex Robot Activities via LLMs and Symbolic Reasoning</title><link>https://fra-tsuna.github.io/website/publications/2025-defining-and-monitoring-complex-robot-activities-via-llms-an/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2025-defining-and-monitoring-complex-robot-activities-via-llms-an/</guid><description>&lt;p&gt;Authors: Argenziano, Francesco; &lt;a href="https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it"&gt;Umili, Elena&lt;/a&gt;; &lt;a href="https://www.diag.uniroma1.it/leotta/"&gt;Leotta, Francesco&lt;/a&gt;; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;
 Publication: IEEE International Conference on Tools with Artificial Intelligence (ICTAI), 2025
 Details: Pages 1037-1044, Publisher IEEE Computer Society&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dynamic Objects Relocalization in Changing Environments with Flow Matching</title>
-      <link>http://localhost:1313/publications/2025-dynamic-objects-relocalization-in-changing-environments-with/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2025-dynamic-objects-relocalization-in-changing-environments-with/</guid>
-      <description>&lt;p&gt;Authors: Argenziano, Francesco*; &lt;a href=&#34;https://mikes96.github.io/&#34;&gt;Saavedra-Ruiz, Miguel&lt;/a&gt;*; &lt;a href=&#34;https://sachamorin.github.io/&#34;&gt;Morin, Sacha&lt;/a&gt;; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;; &lt;a href=&#34;https://liampaull.ca/&#34;&gt;Paull, Liam&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Dynamic Objects Relocalization in Changing Environments with Flow Matching</title><link>https://fra-tsuna.github.io/website/publications/2025-dynamic-objects-relocalization-in-changing-environments-with/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2025-dynamic-objects-relocalization-in-changing-environments-with/</guid><description>&lt;p&gt;Authors: Argenziano, Francesco*; &lt;a href="https://mikes96.github.io/"&gt;Saavedra-Ruiz, Miguel&lt;/a&gt;*; &lt;a href="https://sachamorin.github.io/"&gt;Morin, Sacha&lt;/a&gt;; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;; &lt;a href="https://liampaull.ca/"&gt;Paull, Liam&lt;/a&gt;
 Publication: Workshop on Perception and Planning for Mobile Manipulation in Changing Environments @ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Object-Centric Agentic Robot Policies</title>
-      <link>http://localhost:1313/publications/object-centric-agentic-robot-policies/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/object-centric-agentic-robot-policies/</guid>
-      <description>&lt;p&gt;Authors: &lt;a href=&#34;https://sachamorin.github.io/&#34;&gt;Morin, Sacha&lt;/a&gt;; &lt;a href=&#34;https://www.kumaradityag.com/&#34;&gt;Gupta, Kumaraditya&lt;/a&gt;; &lt;a href=&#34;https://scholar.google.com/citations?hl=en&amp;amp;user=Gdv8B50AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&#34;&gt;Sandhu, Mahtab&lt;/a&gt;; &lt;a href=&#34;https://velythyl.github.io/&#34;&gt;Gauthier, Charlie&lt;/a&gt;; Argenziano, Francesco; &lt;a href=&#34;https://www.linkedin.com/in/kirsty-ellis-943b8245/&#34;&gt;Ellis, Kirsty&lt;/a&gt;; &lt;a href=&#34;https://liampaull.ca/&#34;&gt;Paull, Liam&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Object-Centric Agentic Robot Policies</title><link>https://fra-tsuna.github.io/website/publications/object-centric-agentic-robot-policies/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/object-centric-agentic-robot-policies/</guid><description>&lt;p&gt;Authors: &lt;a href="https://sachamorin.github.io/"&gt;Morin, Sacha&lt;/a&gt;; &lt;a href="https://www.kumaradityag.com/"&gt;Gupta, Kumaraditya&lt;/a&gt;; &lt;a href="https://scholar.google.com/citations?hl=en&amp;amp;user=Gdv8B50AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate"&gt;Sandhu, Mahtab&lt;/a&gt;; &lt;a href="https://velythyl.github.io/"&gt;Gauthier, Charlie&lt;/a&gt;; Argenziano, Francesco; &lt;a href="https://www.linkedin.com/in/kirsty-ellis-943b8245/"&gt;Ellis, Kirsty&lt;/a&gt;; &lt;a href="https://liampaull.ca/"&gt;Paull, Liam&lt;/a&gt;
 Publication: Workshop on Space in Vision, Language, and Embodied AI @ Annual Conference on Neural Information Processing Systems (NeurIPS), 2025&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>EMPOWER: embodied multi-role open-vocabulary planning with online grounding and execution</title>
-      <link>http://localhost:1313/publications/2024-empower-embodied-multi-role-open-vocabulary-planning-with-on/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2024-empower-embodied-multi-role-open-vocabulary-planning-with-on/</guid>
-      <description>&lt;p&gt;Authors: Argenziano, Francesco; &lt;a href=&#34;https://michelebri.github.io/&#34;&gt;Brienza, Michele&lt;/a&gt;; Suriani, Vincenzo; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;; &lt;a href=&#34;https://dbloisi.github.io/&#34;&gt;Bloisi, Domenico D&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>EMPOWER: embodied multi-role open-vocabulary planning with online grounding and execution</title><link>https://fra-tsuna.github.io/website/publications/2024-empower-embodied-multi-role-open-vocabulary-planning-with-on/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2024-empower-embodied-multi-role-open-vocabulary-planning-with-on/</guid><description>&lt;p&gt;Authors: Argenziano, Francesco; &lt;a href="https://michelebri.github.io/"&gt;Brienza, Michele&lt;/a&gt;; Suriani, Vincenzo; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;; &lt;a href="https://dbloisi.github.io/"&gt;Bloisi, Domenico D&lt;/a&gt;
 Publication: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024
 Details: Pages 12040-12047, Publisher IEEE&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Multi-Agent Planning Using Visual Language Models</title>
-      <link>http://localhost:1313/publications/2024-multi-agent-planning-using-visual-language-models/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2024-multi-agent-planning-using-visual-language-models/</guid>
-      <description>&lt;p&gt;Authors: &lt;a href=&#34;https://michelebri.github.io/&#34;&gt;Brienza, Michele&lt;/a&gt;; Argenziano, Francesco; Suriani, Vincenzo; &lt;a href=&#34;https://dbloisi.github.io/&#34;&gt;Bloisi, Domenico D&lt;/a&gt;; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Multi-Agent Planning Using Visual Language Models</title><link>https://fra-tsuna.github.io/website/publications/2024-multi-agent-planning-using-visual-language-models/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2024-multi-agent-planning-using-visual-language-models/</guid><description>&lt;p&gt;Authors: &lt;a href="https://michelebri.github.io/"&gt;Brienza, Michele&lt;/a&gt;; Argenziano, Francesco; Suriani, Vincenzo; &lt;a href="https://dbloisi.github.io/"&gt;Bloisi, Domenico D&lt;/a&gt;; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;
 Publication: European Conference on Artificial Intelligence (ECAI), 2024
 Details: Pages 3605-3611, Publisher Ios Press&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Neural reward machines</title>
-      <link>http://localhost:1313/publications/2024-neural-reward-machines/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2024-neural-reward-machines/</guid>
-      <description>&lt;p&gt;Authors: &lt;a href=&#34;https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it&#34;&gt;Umili, Elena&lt;/a&gt;; Argenziano, Francesco; &lt;a href=&#34;https://robertocapobianco.com/&#34;&gt;Capobianco, Roberto&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Neural reward machines</title><link>https://fra-tsuna.github.io/website/publications/2024-neural-reward-machines/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2024-neural-reward-machines/</guid><description>&lt;p&gt;Authors: &lt;a href="https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it"&gt;Umili, Elena&lt;/a&gt;; Argenziano, Francesco; &lt;a href="https://robertocapobianco.com/"&gt;Capobianco, Roberto&lt;/a&gt;
 Publication: European Conference on Artificial Intelligence (ECAI), 2024
 Details: Pages 3055-3062, Publisher Ios Press&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Enhancing Graph Representation of the Environment through Local and Cloud Computation</title>
-      <link>http://localhost:1313/publications/2023-enhancing-graph-representation-of-the-environment-through-lo/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2023-enhancing-graph-representation-of-the-environment-through-lo/</guid>
-      <description>&lt;p&gt;Authors: Argenziano, Francesco; Suriani, Vincenzo; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Enhancing Graph Representation of the Environment through Local and Cloud Computation</title><link>https://fra-tsuna.github.io/website/publications/2023-enhancing-graph-representation-of-the-environment-through-lo/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2023-enhancing-graph-representation-of-the-environment-through-lo/</guid><description>&lt;p&gt;Authors: Argenziano, Francesco; Suriani, Vincenzo; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;
 Publication: Workshop on Robot Representations for Scene Understanding, Reasoning and Planning @ Robotics: Science and Systems (RSS), 2023&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Visual reward machines</title>
-      <link>http://localhost:1313/publications/2023-visual-reward-machines/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2023-visual-reward-machines/</guid>
-      <description>&lt;p&gt;Authors: &lt;a href=&#34;https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it&#34;&gt;Umili, Elena&lt;/a&gt;; Argenziano, Francesco; &lt;a href=&#34;https://scholar.google.com/citations?user=oB7yWcIAAAAJ&amp;amp;hl=en&#34;&gt;Barbin, Aymeric&lt;/a&gt;; &lt;a href=&#34;https://robertocapobianco.com/&#34;&gt;Capobianco, Roberto&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Visual reward machines</title><link>https://fra-tsuna.github.io/website/publications/2023-visual-reward-machines/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2023-visual-reward-machines/</guid><description>&lt;p&gt;Authors: &lt;a href="https://www.linkedin.com/in/elena-umili-b65a89183/?originalSubdomain=it"&gt;Umili, Elena&lt;/a&gt;; Argenziano, Francesco; &lt;a href="https://scholar.google.com/citations?user=oB7yWcIAAAAJ&amp;amp;hl=en"&gt;Barbin, Aymeric&lt;/a&gt;; &lt;a href="https://robertocapobianco.com/"&gt;Capobianco, Roberto&lt;/a&gt;
 Publication: International Workshop on Neural-Symbolic Learning and Reasoning (NeSy), 2023
 Details: Volume 3432, Pages 255-267, Publisher CEUR-WS&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Knowledge acquisition and completion for long-term human-robot interactions using knowledge graph embedding</title>
-      <link>http://localhost:1313/publications/2022-knowledge-acquisition-and-completion-for-long-term-human-rob/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/2022-knowledge-acquisition-and-completion-for-long-term-human-rob/</guid>
-      <description>&lt;p&gt;Authors: Argenziano, Francesco*; Bartoli, Ermanno*; Suriani, Vincenzo; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>Knowledge acquisition and completion for long-term human-robot interactions using knowledge graph embedding</title><link>https://fra-tsuna.github.io/website/publications/2022-knowledge-acquisition-and-completion-for-long-term-human-rob/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/publications/2022-knowledge-acquisition-and-completion-for-long-term-human-rob/</guid><description>&lt;p&gt;Authors: Argenziano, Francesco*; Bartoli, Ermanno*; Suriani, Vincenzo; &lt;a href="https://www.diag.uniroma1.it/~nardi/"&gt;Nardi, Daniele&lt;/a&gt;
 Publication: International Conference of the Italian Association for Artificial Intelligence (AIxIA), 2022
 Details: Pages 241-253, Publisher Springer International Publishing Cham&lt;/p&gt;
-&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>PhD student in Artificial Intelligence and Robotics at Sapienza University of Rome, focused on scene understanding, 3D scene graphs, and task planning.</description>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;Abstract and links will be added soon.&lt;/p&gt;</description></item><item><title>About me</title><link>https://fra-tsuna.github.io/website/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fra-tsuna.github.io/website/about/</guid><description>PhD student in Artificial Intelligence and Robotics at Sapienza University of Rome, focused on scene understanding, 3D scene graphs, and task planning.</description></item></channel></rss>

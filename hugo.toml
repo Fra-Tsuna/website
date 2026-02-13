@@ -1,4 +1,4 @@
-baseURL = "https://Fra-Tsuna.github.io/"
+baseURL = "https://fra-tsuna.github.io/website/"
 languageCode = "en-us"
 title = "Francesco Argenziano"
 theme = "PaperMod"
@@ -43,6 +43,3 @@ staticDir = ["static"]
     name = "About"
     url = "/about/"
     weight = 2
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
