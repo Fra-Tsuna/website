@@ -2,7 +2,7 @@ baseURL = "https://Fra-Tsuna.github.io/"
 languageCode = "en-us"
 title = "Francesco Argenziano"
 theme = "PaperMod"
-staticDir = ["static", "imgs"]
+staticDir = ["static"]
 
 [pagination]
   pagerSize = 10
@@ -19,7 +19,7 @@ staticDir = ["static", "imgs"]
   mainSections = ["log"]
 
 [params.homeInfoParams]
-  Content = "![My portrait](portrait.png \"My portrait\")"
+  Content = "![My portrait](/imgs/portrait.png \"My portrait\")"
 
 [[params.homeBadges]]
   label = "Google Scholar"

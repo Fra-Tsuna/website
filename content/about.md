@@ -5,7 +5,7 @@ draft: false
 summary: "PhD student in Artificial Intelligence and Robotics at Sapienza University of Rome, focused on scene understanding, 3D scene graphs, and task planning."
 ---
 
-<img src="/portrait.png" alt="My portrait" title="About Me" class="about-portrait">
+<img src="/imgs/portrait.png" alt="My portrait" title="About Me" class="about-portrait">
 
 I am a PhD Student in Artificial Intelligence and Robotics @ Sapienza University of Rome, enrolled at the Italian Nation Doctorate in Artificial Intelligence. My research interests involve all those disciplines that combine Robotics and Semantics such as Scene Understanding, 3D Scene Graphs and Task Planning, topic that I have been working on with Prof. Daniele Nardi. 
 I have also performed a visiting research period at Mila - Quebec AI Institute during my last year of PhD, during which I had the opportunity to work with Prof. Liam Paull and the REAL Lab of Université de Montréal on related topics to my research,

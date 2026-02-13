@@ -4,6 +4,7 @@ date: 2024-01-01
 draft: false
 venue: "European Conference on Artificial Intelligence (ECAI), 2024"
 award: "Oral Presentation"
+image: "imgs/ecai_map.png"
 projectUrl: "https://lab-rococo-sapienza.github.io/map-vlm/"
 codeUrl: "https://github.com/Lab-RoCoCo-Sapienza/map-vlm"
 paperUrl: "https://ebooks.iospress.nl/volumearticle/70011"
