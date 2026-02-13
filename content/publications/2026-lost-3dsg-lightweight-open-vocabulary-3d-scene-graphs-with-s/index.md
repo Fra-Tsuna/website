@@ -3,6 +3,7 @@ title: "LOST-3DSG: Lightweight Open-Vocabulary 3D Scene Graphs with Semantic Tra
 date: 2026-01-01
 draft: false
 venue: "Workshop on Scene Graph for Structured Intelligence @ IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026"
+image: "imgs/wacv.png"
 projectUrl: "https://lab-rococo-sapienza.github.io/lost-3dsg/"
 codeUrl: "https://github.com/Lab-RoCoCo-Sapienza/lost-3dsg"
 paperUrl: "https://arxiv.org/pdf/2601.02905v1"

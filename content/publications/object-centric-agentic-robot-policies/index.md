@@ -3,6 +3,10 @@ title: "Object-Centric Agentic Robot Policies"
 date: 2025-01-01
 draft: false
 venue: "Workshop on Space in Vision, Language, and Embodied AI @ Annual Conference on Neural Information Processing Systems (NeurIPS), 2025"
+image: "imgs/neurips.png"
+hideProjectCode: true
+award: "Poster Presentation"
+paperUrl: "https://openreview.net/attachment?id=ze5SVsXsmq&name=pdf"
 authors: "Sacha Morin; Kumaraditya Gupta; Mahtab Sandhu; Charlie Gauthier; Francesco Argenziano; Kirsty Ellis; Liam Paull"
 abstract: "Abstract available in the publication record."
 ---

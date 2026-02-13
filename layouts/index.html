@@ -85,15 +85,13 @@
             <article class="pub-card">
                 <div class="pub-link">
                     {{ if $image }}
-                    <a class="pub-thumb" href="{{ $page.RelPermalink }}">
+                    <div class="pub-thumb">
                         <img src="{{ $image }}" alt="{{ $page.Title }} cover" loading="lazy">
-                    </a>
+                    </div>
                     {{ end }}
                     <div class="pub-body">
                         <div class="pub-title-row">
-                            <a class="pub-title-link" href="{{ $page.RelPermalink }}">
-                                <h3>{{ $page.Title }}</h3>
-                            </a>
+                            <h3 class="pub-title-link">{{ $page.Title }}</h3>
                             {{ with $page.Params.award }}
                             <span class="pub-award">{{ . }}</span>
                             {{ end }}

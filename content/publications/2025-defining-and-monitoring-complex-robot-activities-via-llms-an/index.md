@@ -4,6 +4,7 @@ date: 2025-01-01
 draft: false
 venue: "IEEE International Conference on Tools with Artificial Intelligence (ICTAI), 2025"
 award: "Oral Presentation"
+image: "imgs/ictai.png"
 projectUrl: "https://fra-tsuna.github.io/llm-to-symbolic-planner/"
 paperUrl: "https://arxiv.org/pdf/2509.16006"
 codeUrl: "https://github.com/Fra-Tsuna/llm-to-symbolic-planner"

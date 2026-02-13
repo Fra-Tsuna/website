@@ -290,7 +290,7 @@ button#theme-toggle {
   display: inline-block;
 }
 
-.pub-title-link:hover {
+a.pub-title-link:hover {
   text-decoration: underline;
 }
 
