@@ -2,7 +2,7 @@
 title: "Context Matters! Relaxing Goals with LLMs for Feasible 3D Scene Planning"
 date: 2025-01-01
 draft: false
-venue: "IEEE International Conference on Robotics & Automation (ICRA), 2025"
+venue: "IEEE International Conference on Robotics & Automation (ICRA), 2026"
 showVenue: true
 image: "imgs/icra.png"
 projectUrl: "https://lab-rococo-sapienza.github.io/context-matters/"
@@ -12,6 +12,6 @@ authors: "Francesco Argenziano*; Emanuele Musumeci*; Michele Brienza*; Abdel Hak
 abstract: "Abstract available in the publication record."
 ---
 Authors: Argenziano, Francesco*; [Musumeci, Emanuele](https://sites.google.com/view/emanuelemusumeci/home)*; [Brienza, Michele](https://michelebri.github.io/)*; [Drid, Abdel Hakim](https://www.linkedin.com/in/hakim-drid/); Suriani, Vincenzo; [Nardi, Daniele](https://www.diag.uniroma1.it/~nardi/); [Bloisi, Domenico D](https://dbloisi.github.io/)
-Publication: IEEE International Conference on Robotics & Automation (ICRA), 2025
+Publication: IEEE International Conference on Robotics & Automation (ICRA), 2026
 
 Abstract and links will be added soon.

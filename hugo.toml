@@ -8,7 +8,8 @@ staticDir = ["static"]
   pagerSize = 10
 
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "light"
+  disableThemeToggle = true
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -29,6 +30,10 @@ staticDir = ["static"]
   label = "LinkedIn"
   url = "https://www.linkedin.com/in/fra-arg/"
   icon = "svg/linkedin-161-svgrepo-com.svg"
+[[params.homeBadges]]
+  label = "Email"
+  url = "mailto:francescoarg@live.it"
+  icon = "svg/email-svgrepo-com.svg"
 [[params.homeBadges]]
   label = "GitHub"
   url = "https://github.com/Fra-Tsuna"
