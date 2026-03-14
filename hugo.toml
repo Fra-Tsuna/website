@@ -16,6 +16,10 @@ staticDir = ["static"]
   ShowCodeCopyButtons = true
   homeTitle = "Francesco Argenziano"
 
+  [params.author]
+    name = "Francesco Argenziano"
+    email = "francescoarg@live.it"
+
   # PaperMod: show posts on home
   mainSections = ["log"]
 
