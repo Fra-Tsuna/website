@@ -139,8 +139,10 @@
                         {{ $authors = replaceRE `(Drid,\s*Abdel\s+Hakim\*?)` `<a href="https://www.linkedin.com/in/hakim-drid/">$1</a>` $authors }}
                         {{ $authors = replaceRE `(Sara\s+Micol\s+Ferraina\*?)` `<a href="https://www.linkedin.com/in/sara-micol-ferraina-85313a1a9/?originalSubdomain=it">$1</a>` $authors }}
                         {{ $authors = replaceRE `(Ferraina,\s*Sara\s+Micol\*?)` `<a href="https://www.linkedin.com/in/sara-micol-ferraina-85313a1a9/?originalSubdomain=it">$1</a>` $authors }}
-                        {{ $authors = replaceRE `(Domenico\s+D\s+Bloisi\*?)` `<a href="https://dbloisi.github.io/">$1</a>` $authors }}
-                        {{ $authors = replaceRE `(Bloisi,\s*Domenico\s+D\*?)` `<a href="https://dbloisi.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(John\s+Mark\s+Alexis\s+Marcelo\*?)` `<a href="https://www.linkedin.com/in/john-marcelo-a440b62bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Marcelo,\s*John\s+Mark\s+Alexis\*?)` `<a href="https://www.linkedin.com/in/john-marcelo-a440b62bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Domenico\s+D\.?\s+Bloisi\*?)` `<a href="https://dbloisi.github.io/">$1</a>` $authors }}
+                        {{ $authors = replaceRE `(Bloisi,\s*Domenico\s+D\.?\*?)` `<a href="https://dbloisi.github.io/">$1</a>` $authors }}
                         {{ $authors = replaceRE `(Michele\s+Brienza\*?)` `<a href="https://michelebri.github.io/">$1</a>` $authors }}
                         {{ $authors = replaceRE `(Brienza,\s*Michele\*?)` `<a href="https://michelebri.github.io/">$1</a>` $authors }}
                         <p class="pub-authors">{{ $authors | safeHTML }}</p>
