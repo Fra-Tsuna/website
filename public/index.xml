@@ -4,12 +4,30 @@
     <title>Francesco Argenziano</title>
     <link>http://localhost:1313/website/</link>
     <description>Recent content on Francesco Argenziano</description>
-    <generator>Hugo -- 0.157.0</generator>
+    <generator>Hugo -- 0.163.3</generator>
     <language>en-us</language>
     <managingEditor>francescoarg@live.it (Francesco Argenziano)</managingEditor>
     <webMaster>francescoarg@live.it (Francesco Argenziano)</webMaster>
-    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Scene Graphs: Open Challenges and Future Directions</title>
+      <link>http://localhost:1313/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate><author>francescoarg@live.it (Francesco Argenziano)</author>
+      <guid>http://localhost:1313/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/</guid>
+      <description>&lt;p&gt;Authors: Rotondi, Dennis; Argenziano, Francesco; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;; Valada, Abhinav; &lt;a href=&#34;https://liampaull.ca/&#34;&gt;Paull, Liam&lt;/a&gt;; Tombari, Federico; Carlone, Luca; Arras, Kai O.
+Publication: arXiv preprint arXiv:2606.19383&lt;/p&gt;
+&lt;p&gt;Abstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment. Their expressiveness has made them relevant to a broad range of problems in robotics and computer vision, including manipulation, navigation, task planning, scene understanding, and many others. However, the field remains fragmented: different communities adopt distinct formulations, construction pipelines, and evaluation protocols, making it difficult to compare methods, identify common assumptions, and assess remaining challenges for robust real-world deployment. This survey provides a unified and critical review of 3DSGs, with particular emphasis on open challenges and future directions. We first formalize 3DSGs under a common definition and analyze the principal modeling choices that characterize existing formulations, including node and edge attributes, hierarchical structure, dynamic scene representations, and affordance-aware extensions. We then review how 3DSGs are built from raw sensory observations, discussing the most common terminologies, conventions, and techniques. Finally, we examine downstream applications and evaluation strategies, from intrinsic graph quality to task-level performance. To support the community, we also provide a dedicated website that organizes and extends the surveyed content, accessible at &lt;a href=&#34;https://3dscenegraphs.com/&#34;&gt;3dscenegraphs.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FlowMaps: Modeling Long-Term Multimodal Object Dynamics with Flow Matching</title>
+      <link>http://localhost:1313/website/publications/2026-flowmaps-modeling-long-term-multimodal-object-dynamics-with-flow-matching/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate><author>francescoarg@live.it (Francesco Argenziano)</author>
+      <guid>http://localhost:1313/website/publications/2026-flowmaps-modeling-long-term-multimodal-object-dynamics-with-flow-matching/</guid>
+      <description>&lt;p&gt;Authors: Argenziano, Francesco; Saavedra-Ruiz, Miguel; &lt;a href=&#34;https://sachamorin.github.io/&#34;&gt;Morin, Sacha&lt;/a&gt;; &lt;a href=&#34;https://velythyl.github.io/&#34;&gt;Gauthier, Charlie&lt;/a&gt;; &lt;a href=&#34;https://www.diag.uniroma1.it/~nardi/&#34;&gt;Nardi, Daniele&lt;/a&gt;; &lt;a href=&#34;https://liampaull.ca/&#34;&gt;Paull, Liam&lt;/a&gt;
+Publication: arXiv preprint arXiv:2606.20209&lt;/p&gt;
+&lt;p&gt;Abstract: Joint spatial and temporal understanding of 3D scenes is a crucial requirement for robots deployed in everyday household environments. Such agents must not only comprehend and navigate spatial layouts, but also reason about how these spaces evolve over time. In particular, humans interact with objects daily, causing them to change position throughout the environment and making it difficult for robots to reliably associate current observations with previously seen objects. However, these interactions are not random: human habits and routines induce spatio-temporally consistent patterns in object locations, which robotic agents can potentially learn and then exploit for downstream tasks such as navigation. To this end, we introduce FlowMaps, a latent flow matching model for estimating multimodal distributions over the future locations of dynamic objects in a continuous 3D space. By learning the implicit dependencies among objects and their temporal evolution, FlowMaps predicts likely changes in object locations conditioned on past human interactions, while supporting generalization across previously unseen environments that share similar object routines. To demonstrate the utility of this method, we deploy FlowMaps in a downstream dynamic Object Navigation task in both simulated and real-world environments. Across more than 600 episodes, FlowMaps outperforms state-of-the-art approaches, showing that modeling object dynamics through continuous, multimodal spatio-temporal distributions improves robotic search and navigation in changing household environments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>R2F: Repurposing Ray Frontiers for LLM-free Object Navigation</title>
       <link>http://localhost:1313/website/publications/2026-r2f-repurposing-ray-frontiers-for-llm-free-object-navigation/</link>
