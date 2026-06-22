@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><script src="/website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=website/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>3D Scene Graphs: Open Challenges and Future Directions | Francesco Argenziano</title>
 <meta name="keywords" content="">
-<meta name="description" content="Authors: Rotondi, Dennis; Argenziano, Francesco; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; Nardi, Daniele; Valada, Abhinav; Paull, Liam; Tombari, Federico; Carlone, Luca; Arras, Kai O.
+<meta name="description" content="Authors: Argenziano, Francesco*; Rotondi, Dennis*; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; Nardi, Daniele; Valada, Abhinav; Paull, Liam; Tombari, Federico; Carlone, Luca; Arras, Kai O.
 Publication: arXiv preprint arXiv:2606.19383
 Abstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment. Their expressiveness has made them relevant to a broad range of problems in robotics and computer vision, including manipulation, navigation, task planning, scene understanding, and many others. However, the field remains fragmented: different communities adopt distinct formulations, construction pipelines, and evaluation protocols, making it difficult to compare methods, identify common assumptions, and assess remaining challenges for robust real-world deployment. This survey provides a unified and critical review of 3DSGs, with particular emphasis on open challenges and future directions. We first formalize 3DSGs under a common definition and analyze the principal modeling choices that characterize existing formulations, including node and edge attributes, hierarchical structure, dynamic scene representations, and affordance-aware extensions. We then review how 3DSGs are built from raw sensory observations, discussing the most common terminologies, conventions, and techniques. Finally, we examine downstream applications and evaluation strategies, from intrinsic graph quality to task-level performance. To support the community, we also provide a dedicated website that organizes and extends the surveyed content, accessible at 3dscenegraphs.com.">
 <meta name="author" content="map[email:francescoarg@live.it mainsections:[log] name:Francesco Argenziano]">
-<link rel="canonical" href="http://localhost:1313/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/">
+<link rel="canonical" href="https://fra-tsuna.github.io/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/">
 <link crossorigin="anonymous" href="/website/assets/css/stylesheet.55c42caeed4e7adb2fddb3e95e713eb188f190b113f1cc99a144e708007bacfd.css" integrity="sha256-VcQsru1Oetsv3bPpXnE&#43;sYjxkLET8cyZoUTnCAB7rP0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/website/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/website/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/website/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/website/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/website/safari-pinned-tab.svg">
+<link rel="icon" href="https://fra-tsuna.github.io/website/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fra-tsuna.github.io/website/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fra-tsuna.github.io/website/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fra-tsuna.github.io/website/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fra-tsuna.github.io/website/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/">
+<link rel="alternate" hreflang="en" href="https://fra-tsuna.github.io/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,24 +29,93 @@ Abstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for 
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://fra-tsuna.github.io/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/">
+  <meta property="og:site_name" content="Francesco Argenziano">
+  <meta property="og:title" content="3D Scene Graphs: Open Challenges and Future Directions">
+  <meta property="og:description" content="Authors: Argenziano, Francesco*; Rotondi, Dennis*; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; Nardi, Daniele; Valada, Abhinav; Paull, Liam; Tombari, Federico; Carlone, Luca; Arras, Kai O. Publication: arXiv preprint arXiv:2606.19383
+Abstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment. Their expressiveness has made them relevant to a broad range of problems in robotics and computer vision, including manipulation, navigation, task planning, scene understanding, and many others. However, the field remains fragmented: different communities adopt distinct formulations, construction pipelines, and evaluation protocols, making it difficult to compare methods, identify common assumptions, and assess remaining challenges for robust real-world deployment. This survey provides a unified and critical review of 3DSGs, with particular emphasis on open challenges and future directions. We first formalize 3DSGs under a common definition and analyze the principal modeling choices that characterize existing formulations, including node and edge attributes, hierarchical structure, dynamic scene representations, and affordance-aware extensions. We then review how 3DSGs are built from raw sensory observations, discussing the most common terminologies, conventions, and techniques. Finally, we examine downstream applications and evaluation strategies, from intrinsic graph quality to task-level performance. To support the community, we also provide a dedicated website that organizes and extends the surveyed content, accessible at 3dscenegraphs.com.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="publications">
+    <meta property="article:published_time" content="2026-06-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-22T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="3D Scene Graphs: Open Challenges and Future Directions">
+<meta name="twitter:description" content="Authors: Argenziano, Francesco*; Rotondi, Dennis*; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; Nardi, Daniele; Valada, Abhinav; Paull, Liam; Tombari, Federico; Carlone, Luca; Arras, Kai O.
+Publication: arXiv preprint arXiv:2606.19383
+Abstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment. Their expressiveness has made them relevant to a broad range of problems in robotics and computer vision, including manipulation, navigation, task planning, scene understanding, and many others. However, the field remains fragmented: different communities adopt distinct formulations, construction pipelines, and evaluation protocols, making it difficult to compare methods, identify common assumptions, and assess remaining challenges for robust real-world deployment. This survey provides a unified and critical review of 3DSGs, with particular emphasis on open challenges and future directions. We first formalize 3DSGs under a common definition and analyze the principal modeling choices that characterize existing formulations, including node and edge attributes, hierarchical structure, dynamic scene representations, and affordance-aware extensions. We then review how 3DSGs are built from raw sensory observations, discussing the most common terminologies, conventions, and techniques. Finally, we examine downstream applications and evaluation strategies, from intrinsic graph quality to task-level performance. To support the community, we also provide a dedicated website that organizes and extends the surveyed content, accessible at 3dscenegraphs.com.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Publications",
+      "item": "https://fra-tsuna.github.io/website/publications/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "3D Scene Graphs: Open Challenges and Future Directions",
+      "item": "https://fra-tsuna.github.io/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "3D Scene Graphs: Open Challenges and Future Directions",
+  "name": "3D Scene Graphs: Open Challenges and Future Directions",
+  "description": "Authors: Argenziano, Francesco*; Rotondi, Dennis*; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; Nardi, Daniele; Valada, Abhinav; Paull, Liam; Tombari, Federico; Carlone, Luca; Arras, Kai O. Publication: arXiv preprint arXiv:2606.19383\nAbstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment. Their expressiveness has made them relevant to a broad range of problems in robotics and computer vision, including manipulation, navigation, task planning, scene understanding, and many others. However, the field remains fragmented: different communities adopt distinct formulations, construction pipelines, and evaluation protocols, making it difficult to compare methods, identify common assumptions, and assess remaining challenges for robust real-world deployment. This survey provides a unified and critical review of 3DSGs, with particular emphasis on open challenges and future directions. We first formalize 3DSGs under a common definition and analyze the principal modeling choices that characterize existing formulations, including node and edge attributes, hierarchical structure, dynamic scene representations, and affordance-aware extensions. We then review how 3DSGs are built from raw sensory observations, discussing the most common terminologies, conventions, and techniques. Finally, we examine downstream applications and evaluation strategies, from intrinsic graph quality to task-level performance. To support the community, we also provide a dedicated website that organizes and extends the surveyed content, accessible at 3dscenegraphs.com.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Authors: Argenziano, Francesco*; Rotondi, Dennis*; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; Nardi, Daniele; Valada, Abhinav; Paull, Liam; Tombari, Federico; Carlone, Luca; Arras, Kai O. Publication: arXiv preprint arXiv:2606.19383\nAbstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment. Their expressiveness has made them relevant to a broad range of problems in robotics and computer vision, including manipulation, navigation, task planning, scene understanding, and many others. However, the field remains fragmented: different communities adopt distinct formulations, construction pipelines, and evaluation protocols, making it difficult to compare methods, identify common assumptions, and assess remaining challenges for robust real-world deployment. This survey provides a unified and critical review of 3DSGs, with particular emphasis on open challenges and future directions. We first formalize 3DSGs under a common definition and analyze the principal modeling choices that characterize existing formulations, including node and edge attributes, hierarchical structure, dynamic scene representations, and affordance-aware extensions. We then review how 3DSGs are built from raw sensory observations, discussing the most common terminologies, conventions, and techniques. Finally, we examine downstream applications and evaluation strategies, from intrinsic graph quality to task-level performance. To support the community, we also provide a dedicated website that organizes and extends the surveyed content, accessible at 3dscenegraphs.com.\n",
+  "wordCount" : "222",
+  "inLanguage": "en",
+  "datePublished": "2026-06-22T00:00:00Z",
+  "dateModified": "2026-06-22T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": {"email":"francescoarg@live.it","mainsections":["log"],"name":"Francesco Argenziano"}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fra-tsuna.github.io/website/publications/2026-3d-scene-graphs-open-challenges-and-future-directions/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Francesco Argenziano",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fra-tsuna.github.io/website/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/website/" accesskey="h" title="Francesco Argenziano (Alt + H)">Francesco Argenziano</a>
+            <a href="https://fra-tsuna.github.io/website/" accesskey="h" title="Francesco Argenziano (Alt + H)">Francesco Argenziano</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/website/" title="Home">
+                <a href="https://fra-tsuna.github.io/website/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website/about/" title="About">
+                <a href="https://fra-tsuna.github.io/website/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -65,7 +134,7 @@ Abstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for 
 
 </div>
   </header> 
-  <div class="post-content"><p>Authors: Rotondi, Dennis; Argenziano, Francesco; Koch, Sebastian; Hughes, Nathan; Buechner, Martin; Wald, Johanna; Schmid, Lukas Rosenberger; <a href="https://www.diag.uniroma1.it/~nardi/">Nardi, Daniele</a>; Valada, Abhinav; <a href="https://liampaull.ca/">Paull, Liam</a>; Tombari, Federico; Carlone, Luca; Arras, Kai O.
+  <div class="post-content"><p>Authors: Argenziano, Francesco*; <a href="https://dennisrotondi.com/">Rotondi, Dennis</a>*; <a href="https://kochsebastian.com/">Koch, Sebastian</a>; <a href="https://scholar.google.com/citations?user=8-FI_t0AAAAJ&amp;hl=en">Hughes, Nathan</a>; <a href="https://rl.uni-freiburg.de/people/buechner">Buechner, Martin</a>; <a href="https://scholar.google.de/citations?user=dfjN3YAAAAAJ&amp;hl=en">Wald, Johanna</a>; <a href="https://schmluk.github.io/">Schmid, Lukas Rosenberger</a>; <a href="https://www.diag.uniroma1.it/~nardi/">Nardi, Daniele</a>; <a href="https://rl.uni-freiburg.de/people/valada">Valada, Abhinav</a>; <a href="https://liampaull.ca/">Paull, Liam</a>; <a href="https://federicotombari.github.io/">Tombari, Federico</a>; <a href="https://lucacarlone.mit.edu/">Carlone, Luca</a>; <a href="https://www.ki.uni-stuttgart.de/departments/sir/">Arras, Kai O.</a>
 Publication: arXiv preprint arXiv:2606.19383</p>
 <p>Abstract: 3D Scene Graphs (3DSGs) have emerged as a powerful representation for spatial AI by combining geometric grounding with semantic and relational abstractions of the environment. Their expressiveness has made them relevant to a broad range of problems in robotics and computer vision, including manipulation, navigation, task planning, scene understanding, and many others. However, the field remains fragmented: different communities adopt distinct formulations, construction pipelines, and evaluation protocols, making it difficult to compare methods, identify common assumptions, and assess remaining challenges for robust real-world deployment. This survey provides a unified and critical review of 3DSGs, with particular emphasis on open challenges and future directions. We first formalize 3DSGs under a common definition and analyze the principal modeling choices that characterize existing formulations, including node and edge attributes, hierarchical structure, dynamic scene representations, and affordance-aware extensions. We then review how 3DSGs are built from raw sensory observations, discussing the most common terminologies, conventions, and techniques. Finally, we examine downstream applications and evaluation strategies, from intrinsic graph quality to task-level performance. To support the community, we also provide a dedicated website that organizes and extends the surveyed content, accessible at <a href="https://3dscenegraphs.com/">3dscenegraphs.com</a>.</p>
 
@@ -76,7 +145,7 @@ Publication: arXiv preprint arXiv:2606.19383</p>
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
-  <a class="next" href="http://localhost:1313/website/publications/2026-flowmaps-modeling-long-term-multimodal-object-dynamics-with-flow-matching/">
+  <a class="next" href="https://fra-tsuna.github.io/website/publications/2026-flowmaps-modeling-long-term-multimodal-object-dynamics-with-flow-matching/">
     <span class="title">Next »</span>
     <br>
     <span>FlowMaps: Modeling Long-Term Multimodal Object Dynamics with Flow Matching</span>
@@ -88,7 +157,7 @@ Publication: arXiv preprint arXiv:2606.19383</p>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/website/">Francesco Argenziano</a></span> · 
+        <span>&copy; 2026 <a href="https://fra-tsuna.github.io/website/">Francesco Argenziano</a></span> · 
 
     <span>
         Powered by
