@@ -167,6 +167,9 @@
                         {{ $authors = replaceRE `(Arras,\s*Kai\s+O\.?\*?)` `<a href="https://www.ki.uni-stuttgart.de/departments/sir/">$1</a>` $authors }}
                         <p class="pub-authors">{{ $authors | safeHTML }}</p>
                         {{ end }}
+                        {{ with $page.Params.authorsNote }}
+                        <p class="pub-authors-note">{{ . }}</p>
+                        {{ end }}
                         {{ $project := $page.Params.projectUrl }}
                         {{ $paper := $page.Params.paperUrl }}
                         {{ $code := $page.Params.codeUrl }}

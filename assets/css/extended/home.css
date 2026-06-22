@@ -342,6 +342,13 @@ a.pub-title-link:hover {
   font-size: 0.74rem;
 }
 
+.pub-authors-note {
+  margin: -4px 0 8px;
+  color: var(--home-muted);
+  font-size: 0.68rem;
+  font-style: italic;
+}
+
 .pub-links {
   margin-top: 8px;
   display: flex;
